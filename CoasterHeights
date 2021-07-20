@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class CoasterHeights {
+      
+      public static void main(String[] args) {
+      
+      Scanner sc = new Scanner(System.in);
+      System.out.println("What is the height of the coaster in feet?: ");
+      int height = sc.nextInt();
+      
+      if (height < 100) {
+         System.out.println("No qualification");
+       }
+      if (height >= 100 & height < 200) {
+         System.out.println("Megacoaster");
+         }
+      if (height >= 200 & height < 300) {
+         System.out.println("Hypercoaster");
+         }
+      if (height >= 300 & height < 400) {
+         System.out.println("Gigacoaster");
+         }
+      if (height >= 400 & height < 500) {
+         System.out.println("Stratacoaster");
+         }
+      if (height > 500) {
+         System.out.println("No qualification");
+         }
+       }
+     }
